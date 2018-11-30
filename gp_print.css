@@ -23,6 +23,8 @@ article {
     display: none;
 }
 
+/* Comic Book Sheet Styles */
+
 section#sheet {
     size: 6in;
     margin: 0in auto;
@@ -43,7 +45,3 @@ img.size3 {
 img.size4 {
     width: 1.5in;
 }
-
-
-
-/* Comic Book Sheet Styles */
