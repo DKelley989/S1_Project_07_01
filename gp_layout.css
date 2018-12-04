@@ -92,6 +92,7 @@ article {
         flex: 1 1 auto;
     }
 
+    /* These styles affect images with class values of "size1", "size2", "size3", and "size4" to give them individual widths in percentages based on their class value. */
     img.size1 {
         width: 100%;
     }

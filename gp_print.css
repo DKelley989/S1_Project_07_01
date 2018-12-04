@@ -4,8 +4,8 @@
    Tutorial 5
    Case Problem 1
    
-   Author:   
-   Date:     
+   Author: Dylan Kelley  
+   Date:   11.28.18  
    
    Filename: gp_print.css
 
@@ -17,6 +17,8 @@
 
 
 /* Hidden Objects */
+
+/* This style affects horizontal navigation menus, footer elements, and article elements to display them as none and hide them from the printed version of the page. */
 nav.horizontal,
 footer,
 article {
@@ -25,11 +27,13 @@ article {
 
 /* Comic Book Sheet Styles */
 
+/* This style sets the size of section elements with a class of "sheet" to 6 inches and sets it's margin to 0 inches for the top and bottom and auto for the left and right. */
 section#sheet {
     size: 6in;
     margin: 0in auto;
 }
 
+/* These styles affect images with class values of "size1", "size2", "size3", and "size4" to give them individual widths in inches based on their class value. */
 img.size1 {
     width: 5in;
 }
